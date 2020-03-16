@@ -15,12 +15,12 @@ mongoose
 
 
 app.get("/", (req, res) => {
-    const user = new User({
-        handle: "jim",
-        email: "jim@jim.jim",
-        password: "hunter10"
-    })
-    user.save();
+    // const user = new User({
+    //     handle: "jim",
+    //     email: "jim@jim.jim",
+    //     password: "hunter10"
+    // })
+    // user.save();
     res.send("Hello World refreshed");
 });
 
